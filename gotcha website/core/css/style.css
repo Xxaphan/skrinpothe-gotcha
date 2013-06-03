@@ -1,0 +1,244 @@
+/**
+ * General Page Structure
+ */
+
+	html, body {
+		height: 95%;
+	}
+	
+	body {
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		line-height: 1.48;
+		color: #555;
+		background: url(../images/patern.jpg) repeat top left;
+	}
+
+	.clearfix:after {
+			content: ".";
+			display: block;
+			height: 0;
+			clear: both;
+			visibility: hidden;
+		}
+
+	#siteWrapper {
+		width: 792px;
+		position: relative;
+		margin: 0 auto 0;
+		border-radius: 10px;
+		border: 3px solid black;
+                background-image: url(../images/image.jpeg);
+ 		background-repeat: repeat; 
+ 		
+	}
+        
+        a {
+            color: white;
+        }
+
+
+/**
+ * The Header
+ */
+      
+ 
+        #loginLogout{
+            position: absolute;
+            width: 150px;
+            color: white;
+            top: 0px;
+            padding-left: 10px;
+        }
+        
+        #loginLogout a:visited{
+            position: absolute;
+            text-decoration: none;
+            color: white;
+        }
+        
+        
+ 
+ 	#menu{
+ 		height: 20px;
+ 		position: absolute;
+ 		top:8px;
+ 		right: 17px; 		
+ 	}
+
+ 	#menu a{
+ 		padding-left: 10px;
+		text-decoration: none;
+		color: white;
+		font-size:12px;
+		line-height: 20px;
+ 	}
+
+ 	#menu a:hover{
+ 		padding-left: 10px;
+		text-decoration: none;
+		color: #2F0909;
+		font-size:12px;
+		line-height: 20px;
+ 	}
+
+ 	h1{
+ 		margin-top: -7px;
+ 		background-image: url(../images/index_01.png);
+		background-repeat: no-repeat;
+		text-indent: -9999px;
+ 		height: 216px;
+ 		border-top-left-radius: 5px; 
+ 		border-top-right-radius: 5px; 
+ 	}
+        
+
+
+ 	#content { 		
+ 				
+ 		color: white;
+ 	}
+        
+        footer{
+            margin-top: 15px;
+        }
+        #sectionBox a:visited{
+            color: white;
+        }
+ 	#part1 {
+ 		background: url(../images/index_02.png) no-repeat top left;
+ 		height: 206px;
+ 	}
+
+ 	#part2 {
+ 		background: url(../images/index_03.png) no-repeat top left;
+ 		height: 177px;
+ 		
+ 	}
+
+	#part1 a {
+		position: relative;
+		padding-left: 344px;
+		top: 95px;
+ 		color: white;
+ 		text-decoration: none;
+ 		font-size: 30px;
+ 	}
+
+ 	#part2 a {
+		position: relative;
+		padding-left: 362px;
+		top: 58px;
+ 		color: white;
+ 		text-decoration: none;
+ 		font-size: 30px;
+ 	}
+
+ 	#part1 a:hover {
+		position: relative;
+		padding-left: 344px;
+		top: 95px;
+ 		color: grey;
+ 		text-decoration: none;
+ 		font-size: 30px;
+ 	}
+
+ 	#part2 a:hover {
+		position: relative;
+		padding-left: 362px;
+		top: 58px;
+ 		color: grey;
+ 		text-decoration: none;
+ 		font-size: 30px;
+ 	}
+        
+        
+        #sectionBox {
+            padding: 10px 30px;
+        }
+        
+        #profilepic {
+            border: 2px solid black;
+            width: 230px;
+            height: 230px;
+            margin-bottom: 15px;
+        }
+        
+        #profilepic img {
+            
+            width: 230px;
+            height: 230px;
+        }
+        
+         #profileedit{
+            border: 2px solid black;
+            width: 215px;
+            height: 100%;
+            margin-bottom: 10px;
+            padding-left: 15px;
+        }
+        
+         #profilestats {
+            border: 2px solid black;
+            width: 450px;
+            float: right;
+            height: 100%;  
+            padding-left: 15px;
+        }
+        
+        .profileStyle {
+            background-color: rgba(110, 110, 110, 0.4);
+        }
+        
+        .event {
+            
+            width: 735px;
+            
+        }     
+        
+        .event table {
+            width: 100%;
+        }
+        
+        .profileStyle table {
+            width: 95%
+        }
+        
+        .profileStyle table td {
+            text-align: center;
+        }
+        
+        table th {
+            background-color: darkgrey;
+       
+        }
+        .event table td {
+            text-align: center;
+        }
+        
+        .oneven {
+            background-color: #6a6a6a;
+        }
+        
+        .progress {
+            color: green;
+        }
+        
+        .finished {
+            color: darkred;
+        }
+        
+        .setup {
+            color: orange;
+        }
+        
+        #eventdetail {
+            margin-top: 30px;
+        }
+        
+        #action img {
+            height: 10px;
+            width: 10px;
+        }
+        
+        
